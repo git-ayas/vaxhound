@@ -6,14 +6,23 @@
     "@testing-library/jest-dom": "^5.11.4",
     "@testing-library/react": "^11.1.0",
     "@testing-library/user-event": "^12.1.10",
+    "@types/jest": "^26.0.23",
+    "@types/lodash.uniq": "^4.5.6",
+    "@types/node": "^15.6.0",
+    "@types/react": "^17.0.6",
+    "@types/react-dom": "^17.0.5",
+    "axios": "^0.21.1",
+    "lodash.uniq": "^4.5.0",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
     "react-scripts": "4.0.3",
+    "typescript": "^4.2.4",
     "web-vitals": "^1.0.1"
   },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
+    "build2": "./build.sh",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },

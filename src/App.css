@@ -1,3 +1,10 @@
+body {
+  min-width: 478px;
+  font-size: calc(8px + 1vmin);
+}
+body li {
+  text-align: left;
+}
 .App {
   text-align: center;
 }
@@ -14,18 +21,28 @@
 }
 
 .App-header {
-  background-color: #282c34;
+  background-color: #247b83;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
   color: white;
 }
 
 .App-link {
   color: #61dafb;
+}
+
+.results_area{
+  padding: 0.3em;
+  border: 1px solid cyan;
+  border-radius: 0.5em;
+  color: aquamarine;
+}
+
+.results_area ul{
+  list-style-type: none;
 }
 
 @keyframes App-logo-spin {
